@@ -1,0 +1,566 @@
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+  padding: 0; }
+
+body {
+  text-align: center; }
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: auto;
+  box-shadow: 0 0.3px 5px gray; }
+
+.navbar-nav {
+  margin-right: 6vw; }
+
+.header__nav {
+  padding: 0;
+  color: white;
+  background-color: white;
+  animation-delay: 1s;
+  animation-duration: 2s; }
+
+.header__nav__div__div__div--botones {
+  color: #b80909;
+  text-decoration: none;
+  margin-left: 1vw;
+  margin-right: 0.5vw;
+  font-size: large;
+  transition-duration: 0.25s; }
+
+.header__nav__div__div__div--botones:hover {
+  color: #b80909;
+  text-shadow: 0.1px 0.1px 1px #b80909;
+  transform: scale(1.1);
+  transition-duration: 0.25s; }
+
+.logoplace {
+  width: 20vw;
+  display: flex;
+  align-content: space-between;
+  margin-left: 6vw; }
+
+.textobienvendida {
+  width: 70vw;
+  height: auto;
+  margin: auto;
+  display: block;
+  margin-bottom: 10vh; }
+
+.logo1 {
+  margin-left: 6vw;
+  margin-bottom: 0.5vh; }
+
+.logo2 {
+  max-width: 100%; }
+
+.welcome {
+  filter: brightness(0.6);
+  animation-delay: 0s;
+  animation-duration: 3s;
+  overflow: hidden;
+  box-shadow: 0 0.3px 5px gray;
+  z-index: 2; }
+
+.logoPortada {
+  width: 5vw;
+  border-radius: 55%;
+  animation-timing-function: ease-in;
+  animation-duration: 3s; }
+
+.logoresponsive1 {
+  width: 0vw; }
+
+.logoresponsive2 {
+  width: 0vw; }
+
+.linkresponsive2 {
+  width: 0vw; }
+
+.linkresponsive1 {
+  width: 0vw; }
+
+.linkFace {
+  font-size: 0rem; }
+
+.linkInsta {
+  font-size: 0rem; }
+
+.abajo {
+  width: 5vw;
+  height: 10vh;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite; }
+
+.section1 {
+  height: auto; }
+
+.section2 {
+  height: auto; }
+
+.section3 {
+  height: auto; }
+
+.section4 {
+  height: auto; }
+
+.section5 {
+  height: auto; }
+
+.section6 {
+  height: auto; }
+
+.section7 {
+  height: auto; }
+
+section {
+  display: grid;
+  width: 90%;
+  grid-template-columns: 6fr 6fr;
+  grid-template-rows: auto;
+  grid-template-areas: "foto1 texto1" "texto2 foto2" "foto3 texto3" "texto4 foto4" "foto5 texto5";
+  grid-column-gap: 10px;
+  justify-content: stretch;
+  align-content: stretch;
+  margin: auto;
+  margin-bottom: 25vh; }
+
+article {
+  width: 40vw;
+  height: 20vh; }
+
+video {
+  display: block;
+  width: inherit;
+  height: 50vh;
+  z-index: 1; }
+
+h3, h4 {
+  font-family: "Roboto", sans-serif; }
+
+.botonGrande {
+  background-color: #7c0505;
+  border-color: #7c0505;
+  text-decoration: none;
+  margin-left: 1vw;
+  margin-right: 0.5vw;
+  font-size: large;
+  transition-duration: 0.45s; }
+
+.botonGrande:hover {
+  background-color: #b80909;
+  border-color: #b80909;
+  text-shadow: 0.1px 0.1px 1px #b80909;
+  transition-duration: 0.45s; }
+
+.divisor {
+  padding: 0%;
+  margin-bottom: 5vh;
+  min-width: 100%;
+  box-shadow: 0 0.3px 5px gray; }
+
+.dias {
+  color: #b80909;
+  list-style: none; }
+
+.titulos__textos {
+  color: #b80909; }
+
+.titulos__textos__carrusel {
+  width: 400px;
+  overflow: hidden;
+  margin-left: 5vw;
+  box-shadow: 0 0.3px 5px gray;
+  height: fit-content; }
+
+.container {
+  height: fit-content;
+  padding: 0vw; }
+
+.nombreSeccion {
+  scroll-margin-top: 10vh;
+  margin-bottom: 5vh; }
+
+.titulos__textos__parrafo {
+  margin-top: 5vh; }
+
+.fotos {
+  width: 30vw; }
+
+.titulos {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  color: #b80909;
+  font-family: "Roboto", sans-serif;
+  padding-top: 6vh; }
+
+.subtitulo {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  color: #b80909;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif; }
+
+.whatsapp {
+  text-decoration: none;
+  color: #b80909;
+  transform: scale(1);
+  transition-duration: 0.25s;
+  margin-bottom: 5vh; }
+
+.whatsapp:hover {
+  color: #b80909;
+  transform: scale(1.1);
+  transition-duration: 0.25s; }
+
+.mail {
+  text-decoration: none;
+  color: #b80909;
+  transform: scale(1);
+  transition-duration: 0.25s; }
+
+.mail:hover {
+  color: #b80909;
+  transform: scale(1.1);
+  transition-duration: 0.25s; }
+
+.contenedorTextoRedes {
+  margin-bottom: 10vh; }
+
+.textoRedes {
+  color: #b80909; }
+
+#foto1 {
+  grid-area: foto1;
+  justify-self: center; }
+
+#foto2 {
+  grid-area: foto2;
+  justify-self: center; }
+
+#foto3 {
+  grid-area: foto3;
+  justify-self: center; }
+
+#foto4 {
+  box-shadow: 0 0.3px 5px gray;
+  height: 59vh;
+  overflow: hidden;
+  width: 30vw;
+  align-self: stretch;
+  grid-area: foto4;
+  justify-self: center;
+  display: inline-block; }
+
+#foto5 {
+  box-shadow: 0 0.3px 5px gray;
+  grid-area: foto5;
+  justify-self: center; }
+
+#texto1 {
+  grid-area: texto1;
+  justify-self: center;
+  align-self: center;
+  width: auto; }
+
+#texto2 {
+  grid-area: texto2;
+  justify-self: center;
+  align-self: center;
+  margin-bottom: 5vh; }
+
+#texto3 {
+  grid-area: texto3;
+  justify-self: center;
+  align-self: center;
+  margin-bottom: 5vh; }
+
+#texto4 {
+  box-shadow: 0 0.3px 5px gray;
+  height: 59vh;
+  overflow: hidden;
+  width: 30vw;
+  grid-area: texto4;
+  justify-self: center;
+  align-self: stretch;
+  display: inline-block; }
+
+#texto5 {
+  grid-area: texto5;
+  justify-self: center;
+  align-self: flex-start; }
+
+footer {
+  box-shadow: 0 0.3px 8px gray;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #7c0505; }
+  footer p {
+    margin-top: 1.5vw;
+    margin-left: 1vw;
+    margin-right: 1vw; }
+
+.boton--insta {
+  color: #ff7f07;
+  padding: 1vw; }
+
+.boton--face {
+  color: #0066ff;
+  padding: 1vw; }
+
+.boton--whatsapp {
+  color: #04a704;
+  padding: 1vw; }
+
+@media screen and (min-width: 1px) and (max-width: 767px) {
+  .logoplace {
+    width: 50vw;
+    display: flex;
+    align-content: space-between;
+    text-align: center; }
+  .welcome {
+    filter: brightness(0.6);
+    height: auto;
+    animation-delay: 0s;
+    animation-duration: 3s;
+    overflow: hidden;
+    box-shadow: 0 0.3px 5px gray;
+    z-index: 2; }
+  .logoPortada {
+    margin-top: 1vh;
+    width: 10vw;
+    border-radius: 55%;
+    animation-timing-function: ease-in;
+    animation-duration: 3s; }
+  .abajo {
+    width: 0vw;
+    height: 10vh;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite; }
+  #foto3 {
+    grid-area: foto3;
+    justify-self: center;
+    width: 60vw;
+    height: 50vh;
+    margin-bottom: 5vh; }
+  .nombreSeccion {
+    scroll-margin-top: 17vh;
+    margin-bottom: 5vh;
+    width: 30vw;
+    margin-top: 5vh; }
+  #unPocoDeMi {
+    width: 50vw; }
+  section {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: "inicio" "foto1"  "texto1" "foto2"  "texto2" "foto3"  "texto3" "linkresponsive1"  "linkresponsive2" "foto5"  "texto5" "foto6"  "texto6" "footer";
+    margin: auto; }
+  .titulos__textos__carrusel {
+    justify-self: center;
+    margin-left: 0;
+    margin-bottom: 10vh;
+    width: 80vw; }
+  .linkresponsive1 {
+    grid-template-areas: linkresponsive1;
+    margin-bottom: 10vh;
+    text-decoration: none;
+    height: fit-content !important;
+    width: auto; }
+  .linkresponsive2 {
+    grid-template-areas: linkresponsive2;
+    margin-bottom: 10vh;
+    text-decoration: none;
+    height: fit-content !important;
+    width: auto; }
+  .textoRedes {
+    color: #b80909; }
+  .linkInsta {
+    color: #b80909;
+    text-decoration: none;
+    font-size: 1rem; }
+  .linkInsta:visited {
+    color: #b80909;
+    text-decoration: none; }
+  .linkFace {
+    color: #b80909;
+    text-decoration: none;
+    font-size: 1rem; }
+  .linkFace:visited {
+    color: #b80909;
+    text-decoration: none; }
+  .logoresponsive2 {
+    height: fit-content !important;
+    margin-right: 10px;
+    width: auto; }
+  .logoresponsive1 {
+    width: fit-content !important;
+    margin-right: 10px; }
+  .divisor {
+    margin-top: 0vh;
+    margin-bottom: 0vh; }
+  #foto2 {
+    grid-area: foto2;
+    justify-self: center; }
+  #foto3 {
+    grid-area: foto3;
+    justify-self: center; }
+  #foto4 {
+    box-shadow: 0 0.3px 5px gray;
+    height: 100vh;
+    overflow: hidden;
+    width: 30vw;
+    align-self: stretch;
+    grid-area: foto4;
+    justify-self: center;
+    display: inline-block; }
+  #foto5 {
+    box-shadow: 0 0.3px 5px gray;
+    grid-area: foto5;
+    justify-self: center;
+    width: 80vw; }
+  #grid4 {
+    width: 0vw;
+    height: 0vh;
+    display: flex;
+    justify-content: space-evenly !important;
+    margin-bottom: 0vh; }
+  #grid5 {
+    height: auto;
+    margin-bottom: 10vh; }
+  #footer {
+    grid-area: footer; }
+  #texto4 {
+    width: 0vw; }
+  #texto5 {
+    margin-top: 5vh; }
+  article {
+    width: 70vw;
+    height: auto; }
+  video {
+    width: 85vw;
+    height: 45vh;
+    box-shadow: 0 0.3px 5px gray;
+    margin-bottom: 2.5vh; }
+  .face {
+    width: 0vw !important; }
+  .insta {
+    height: 0vh !important; } }
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .logoplace {
+    width: 50vw;
+    display: flex;
+    align-content: space-between;
+    text-align: center; }
+  .welcome {
+    filter: brightness(0.6);
+    height: auto;
+    animation-delay: 0s;
+    animation-duration: 3s;
+    overflow: hidden;
+    z-index: 2;
+    margin-bottom: 10vh; }
+  .logoPortada {
+    margin-top: 1vh;
+    width: 10vw;
+    border-radius: 55%;
+    animation-timing-function: ease-in;
+    animation-duration: 3s; }
+  .abajo {
+    width: 0vw; }
+  #foto3 {
+    grid-area: foto3;
+    justify-self: center;
+    width: 50vw;
+    height: 50vh;
+    margin-bottom: 5vh;
+    margin-left: 5vw; }
+  section {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 6fr 6fr;
+    grid-template-rows: auto;
+    grid-template-areas: "foto1 texto1" "texto2 foto2" "foto3 texto3" "texto4 foto4" "foto5 texto5" "texto6 foto6";
+    grid-column-gap: 10px;
+    justify-content: stretch;
+    align-content: stretch;
+    margin: auto; }
+  .titulos__textos__carrusel {
+    justify-self: center;
+    margin-left: 0;
+    margin-bottom: 10vh; }
+  .divisor {
+    margin-top: 0vh;
+    margin-bottom: 5vh; }
+  #foto2 {
+    grid-area: foto2;
+    justify-self: center; }
+  #foto4 {
+    height: 0vh; }
+  #foto5 {
+    box-shadow: 0 0.3px 5px gray;
+    grid-area: foto5;
+    justify-self: center; }
+  #grid4 {
+    width: 0vw;
+    height: 0vh;
+    display: flex;
+    justify-content: space-evenly !important;
+    margin-bottom: 0vh; }
+  #grid5 {
+    height: auto;
+    margin-bottom: 10vh; }
+  #footer {
+    grid-area: footer; }
+  article {
+    width: 40vw;
+    height: auto; }
+  video {
+    width: 30vw;
+    height: 40vh;
+    box-shadow: 0 0.3px 5px gray;
+    margin-bottom: 10vh; }
+  #texto4 {
+    width: 0vw; }
+  .linkresponsive1 {
+    grid-template-areas: linkresponsive1;
+    margin-bottom: 10vh;
+    text-decoration: none;
+    height: fit-content !important;
+    width: auto; }
+  .linkresponsive2 {
+    grid-template-areas: linkresponsive2;
+    margin-bottom: 10vh;
+    text-decoration: none;
+    height: fit-content !important;
+    width: auto; }
+  .textoRedes {
+    color: #b80909; }
+  .linkInsta {
+    color: #b80909;
+    text-decoration: none;
+    font-size: 1rem; }
+  .linkInsta:visited {
+    color: #b80909;
+    text-decoration: none; }
+  .linkFace {
+    color: #b80909;
+    text-decoration: none;
+    font-size: 1rem; }
+  .linkFace:visited {
+    color: #b80909;
+    text-decoration: none; }
+  .logoresponsive2 {
+    height: fit-content !important;
+    margin-right: 10px;
+    width: auto; }
+  .logoresponsive1 {
+    width: fit-content !important;
+    margin-right: 10px; } }
