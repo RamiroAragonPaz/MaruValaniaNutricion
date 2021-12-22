@@ -45,7 +45,7 @@ header {
     align-content: space-between;
     margin-left: 6vw;
     }
-.textobienvendida {
+.textobienvenida {
     width: 70vw;
     height: auto;
     margin:auto;
@@ -66,6 +66,9 @@ header {
     overflow: hidden;
     box-shadow: 0 0.3px 5px gray;
     z-index: 2;
+    }
+#bienvenidos{
+    margin-top: 5vh;
     }
 .logoPortada{
     width: 5vw;
@@ -165,6 +168,10 @@ h3, h4{
     box-shadow: 0 0.3px 5px gray;
     height: fit-content;
     }
+.container1{
+    height: fit-content;
+    padding: 5vw;
+}
 .container{
     height: fit-content;
     padding: 0vw;
@@ -206,6 +213,18 @@ h3, h4{
     transition-duration: 0.25s; 
     }
 .mail{
+
+    text-decoration: none;
+    color: $colorPrincipal;
+    transform: scale(1);
+    transition-duration: 0.25s;
+    }
+.mail:hover{
+    color: $colorPrincipal;
+    transform: scale(1.1);
+    transition-duration: 0.25s;  
+    }
+.mail1{
     text-decoration: none;
     color: $colorPrincipal;
     transform: scale(1);
@@ -377,6 +396,9 @@ footer {
         margin-bottom: 10vh; 
         width: 80vw;     
     }
+    .mail1{
+        display: none;
+    }
     .linkresponsive1{
         grid-template-areas: linkresponsive1; 
         margin-bottom: 10vh;
@@ -395,20 +417,28 @@ footer {
         color: $colorPrincipal;
     }
     .linkInsta {
+        overflow-x: scroll;
         color: $colorPrincipal;
         text-decoration: none;
         font-size: 1rem;
     }
     .linkInsta:visited {
+        overflow-x: scroll;
         color: $colorPrincipal;
         text-decoration: none;
     }
+    #bienvenidos{
+        margin-top: 5vh;
+        width: 50vw;
+        }
     .linkFace {
+        overflow-x: scroll;
         color: $colorPrincipal;
         text-decoration: none;
         font-size: 1rem;
     }
     .linkFace:visited {
+        overflow-x: scroll;
         color: $colorPrincipal;
         text-decoration: none;
     }
@@ -605,20 +635,24 @@ footer {
         color: $colorPrincipal;
     }
     .linkInsta {
+        overflow-x: scroll;
         color: $colorPrincipal;
         text-decoration: none;
         font-size: 1rem;
     }
     .linkInsta:visited {
+        overflow-x: scroll;
         color: $colorPrincipal;
         text-decoration: none;
     }
     .linkFace {
+        overflow-x: scroll;
         color: $colorPrincipal;
         text-decoration: none;
         font-size: 1rem;
     }
     .linkFace:visited {
+        overflow-x: scroll;
         color: $colorPrincipal;
         text-decoration: none;
     }

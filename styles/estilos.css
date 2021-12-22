@@ -224,7 +224,17 @@ h3, h4 {
   transition-duration: 0.25s; }
 
 .mail {
-  overflow-x: scroll;
+  text-decoration: none;
+  color: #b80909;
+  transform: scale(1);
+  transition-duration: 0.25s; }
+
+.mail:hover {
+  color: #b80909;
+  transform: scale(1.1);
+  transition-duration: 0.25s; }
+
+.mail1 {
   text-decoration: none;
   color: #b80909;
   transform: scale(1);
@@ -375,6 +385,8 @@ footer {
     margin-left: 0;
     margin-bottom: 10vh;
     width: 80vw; }
+  .mail1 {
+    display: none; }
   .linkresponsive1 {
     grid-template-areas: linkresponsive1;
     margin-bottom: 10vh;
